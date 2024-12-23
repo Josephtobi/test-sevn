@@ -1,0 +1,181 @@
+.shapingTomorrowHeaderChild {
+  width: 104px;
+  height: 4px;
+  position: relative;
+  border-top: 2px solid var(--color-tomato-300);
+  box-sizing: border-box;
+}
+.today {
+  color: var(--color-mediumseagreen-100);
+}
+.shapingTomorrowTodayContainer1 {
+  width: 100%;
+}
+.ourJourneyIs,
+.shapingTomorrowTodayContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.shapingTomorrowTodayContainer {
+  margin: 0;
+  width: 600px;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.ourJourneyIs {
+  width: 495px;
+  flex-shrink: 0;
+}
+.shapingTomorrowDescriptionC {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-alliance-no1);
+}
+.shapingTomorrowHeader {
+  width: 1103px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.empowerment {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.shapingTomorrowCardHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-49xl) 0 var(--padding-44xl);
+}
+.span {
+  color: var(--color-tomato-100);
+}
+.atSevnContainer {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 18.4px;
+  font-family: var(--font-alliance-no1);
+  display: inline-block;
+  min-height: 114px;
+}
+.component83 {
+  flex: 1;
+  box-shadow: 4px 6px 4px rgba(255, 255, 255, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-97xl) var(--padding-19xl) var(--padding-77xl);
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+}
+.shapingTomrrowCard {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-26xl);
+}
+.shapingTomorrowCards,
+.shapingTomorrowContent,
+.shapingTomrrowCard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.shapingTomorrowCards {
+  align-self: stretch;
+  height: 401px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-14xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.shapingTomorrowContent {
+  width: 1164px;
+  flex-direction: column;
+  gap: var(--gap-61xl);
+}
+.shapingTomorrowContentWrapper {
+  width: 1406px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-46xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no2);
+}
+@media screen and (max-width: 1200px) {
+  .shapingTomorrowContent {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .shapingTomorrowTodayContainer {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .shapingTomorrowHeader {
+    gap: var(--gap-xl);
+  }
+  .shapingTomrrowCard {
+    gap: var(--gap-3xl);
+  }
+  .shapingTomorrowContent {
+    gap: var(--gap-xl);
+  }
+  .shapingTomorrowContentWrapper {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .shapingTomorrowTodayContainer {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .empowerment {
+    font-size: var(--font-size-base);
+  }
+  .shapingTomorrowCardHeader {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .component83 {
+    gap: var(--gap-6xl);
+    padding-top: var(--padding-56xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}

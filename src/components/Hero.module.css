@@ -1,0 +1,27 @@
+.retail {
+  margin: 0 !important;
+  width: 155px;
+  position: absolute;
+  top: calc(50% - 44.5px);
+  left: -5px;
+  font-size: inherit;
+  letter-spacing: -3px;
+  line-height: 89px;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 0;
+}
+.hero {
+  height: 57px;
+  width: 185px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-tomato-100);
+  font-family: var(--font-alliance-no1);
+}

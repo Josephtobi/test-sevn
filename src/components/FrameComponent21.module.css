@@ -1,0 +1,209 @@
+.whyChooseTitleChild {
+  width: 102px;
+  height: 2px;
+  position: relative;
+  border-top: 1px solid var(--color-tomato-300);
+  box-sizing: border-box;
+}
+.whyChooseSevnbytes {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.whyChooseHeader,
+.whyChooseTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.whyChooseTitle {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.whyChooseHeader {
+  width: 1003px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-family: var(--font-alliance-no2);
+}
+.mynauishieldPlusIcon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.proactiveRiskSolutions {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.anticipateChallengesBefore {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 18.4px;
+  color: var(--color-gray-600);
+  display: inline-block;
+  min-height: 38px;
+}
+.solutionItems,
+.solutionsColumns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.solutionItems {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.solutionsColumns {
+  width: 330px;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.insightsTailoredTo {
+  line-height: 18.4px;
+  display: inline-block;
+  min-height: 38px;
+}
+.insightsTailoredTo,
+.practicalStrategiesThat {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+}
+.solutionsColumnsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.secureYourBusiness {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.secureButton {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.icroundArrowRightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.secureColumn,
+.secureColumnWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.secureColumn {
+  flex: 1;
+  border-bottom: 1px solid var(--color-tomato-200);
+  padding: var(--padding-5xs) var(--padding-3xs) var(--padding-7xs);
+  gap: var(--gap-3xs);
+}
+.secureColumnWrapper {
+  padding: 0 var(--padding-448xl);
+  font-size: var(--font-size-base);
+}
+.whyChooseColumn,
+.whyChooseColumnWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.whyChooseColumn {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-61xl);
+}
+.whyChooseColumnWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs) var(--padding-71xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no1);
+}
+@media screen and (max-width: 1200px) {
+  .solutionsColumnsParent {
+    flex-wrap: wrap;
+  }
+  .secureColumnWrapper {
+    padding-left: var(--padding-214xl);
+    padding-right: var(--padding-214xl);
+    box-sizing: border-box;
+  }
+  .whyChooseColumn {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .whyChooseSevnbytes {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whyChooseTitle {
+    gap: var(--gap-xl);
+  }
+  .secureColumnWrapper {
+    padding-left: var(--padding-97xl);
+    padding-right: var(--padding-97xl);
+    box-sizing: border-box;
+  }
+  .whyChooseColumn {
+    gap: var(--gap-xl);
+  }
+  .whyChooseColumnWrapper {
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whyChooseSevnbytes {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .proactiveRiskSolutions {
+    font-size: var(--font-size-lgi);
+  }
+  .secureColumnWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

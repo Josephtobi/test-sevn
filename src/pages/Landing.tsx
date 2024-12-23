@@ -7,7 +7,7 @@ import FrameComponent from "../components/FrameComponent";
 import EdgeCards from "../components/EdgeCards";
 import FrameComponent3 from "../components/FrameComponent3";
 import Footer from "../components/Footer";
-import Solutions from "../components/Solutions";
+import Solutions1 from "../components/Solutions";
 import styles from "./Landing.module.css";
 
 const Landing: FunctionComponent = () => {
@@ -68,7 +68,7 @@ const Landing: FunctionComponent = () => {
       <div className={styles.adviisoryE1} />
       <FrameComponent3 />
       <Footer />
-      <Solutions />
+      <Solutions1 />
       <div className={styles.landingChild} />
     </div>
   );

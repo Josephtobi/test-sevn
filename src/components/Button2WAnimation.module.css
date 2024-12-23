@@ -1,0 +1,34 @@
+.exploreRisk {
+  height: 18px;
+  width: 166px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.icroundArrowRightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+  margin-left: -29px;
+}
+.exploreRiskParent {
+  width: 308px;
+  height: 40px;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no1);
+}

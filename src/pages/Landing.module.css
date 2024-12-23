@@ -169,7 +169,7 @@
   align-self: stretch;
   height: 4px;
   filter: blur(3.5px);
-  border-top: 2px solid #db202c;
+  border-top: 2px solid var(--color-crimson);
   display: none;
   z-index: 12;
 }
@@ -207,7 +207,7 @@
     gap: var(--gap-21xl);
   }
   .advisoryContainerWrapper {
-    padding-bottom: 29px;
+    padding-bottom: var(--padding-10xl);
     box-sizing: border-box;
   }
   .landing {

@@ -1,0 +1,50 @@
+.sifactCheckLineIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.apply {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.shareYourResume {
+  position: relative;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-600);
+}
+.stepDetails,
+.stepItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stepDetails {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.stepItems {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-800);
+  padding: var(--padding-38xl-5) var(--padding-14xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 290px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no1);
+}
+@media screen and (max-width: 450px) {
+  .apply {
+    font-size: var(--font-size-lgi);
+  }
+}

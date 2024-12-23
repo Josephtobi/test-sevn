@@ -1,0 +1,38 @@
+.component61Icon,
+.empowerment {
+  position: relative;
+  flex-shrink: 0;
+}
+.component61Icon {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.empowerment {
+  margin: 0;
+  width: 167px;
+  height: 29px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.empowerment1 {
+  height: 210px;
+  width: 346px;
+  background-color: var(--color-gray-900);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-45xl) var(--padding-26xl) var(--padding-46xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no1);
+}

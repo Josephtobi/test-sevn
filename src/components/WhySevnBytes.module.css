@@ -1,0 +1,64 @@
+.simplifiedSolutions {
+  margin: 0;
+  height: 24px;
+  width: 229px;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.icroundArrowRightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.simplifiedSolutionsParent,
+.whySevnbytesInner {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.simplifiedSolutionsParent {
+  width: 457px;
+  gap: var(--gap-186xl);
+}
+.whySevnbytesInner {
+  width: 473px;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.whySevnbytesChild {
+  width: 490px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  height: 1px;
+}
+.whySevnbytes {
+  width: 489px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no1);
+}

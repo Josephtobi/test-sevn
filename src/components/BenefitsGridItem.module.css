@@ -1,0 +1,51 @@
+.hugeiconsnanoTechnology {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tailoredTechnology {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ourHumanCentricScalable {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+}
+.benefitsGridItem,
+.tailoredTechnologyParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.tailoredTechnologyParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  min-width: 289px;
+}
+.benefitsGridItem {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no1);
+}
+@media screen and (max-width: 450px) {
+  .tailoredTechnology {
+    font-size: var(--font-size-lgi);
+  }
+}

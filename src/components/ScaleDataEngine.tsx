@@ -57,7 +57,7 @@ const ScaleDataEngine: FunctionComponent<ScaleDataEngineType> = ({
               />
               <JanusCard
                 janusCardMinWidth="491px"
-                iconoirmoneySquareSolid="/fluentpayment20filled.svg"
+                iconoirmoneySquareSolid="/fluentpayment20filled1.svg"
                 simplifyingPayrollEmpowering="Redefining Payments for a Connected World"
                 heading2ScaleDataEngine="PayMe"
                 heading2Width="412px"

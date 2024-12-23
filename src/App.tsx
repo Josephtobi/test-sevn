@@ -5,6 +5,11 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import Careers from "./pages/Careers";
+import Solutions from "./pages/Solutions";
+import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
+import RiskAdvisory from "./pages/RiskAdvisory";
 import Landing from "./pages/Landing";
 
 function App() {
@@ -27,6 +32,26 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/solutions":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/about-us":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/contact-us":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/risk-advisory":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/landing":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +70,12 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Landing />} />
+      <Route path="/" element={<Careers />} />
+      <Route path="/solutions" element={<Solutions />} />
+      <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/contact-us" element={<ContactUs />} />
+      <Route path="/risk-advisory" element={<RiskAdvisory />} />
+      <Route path="/landing" element={<Landing />} />
     </Routes>
   );
 }

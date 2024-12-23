@@ -3,11 +3,11 @@ import { Box, Typography } from "@mui/material";
 import FooterNavItem from "./FooterNavItem";
 import styles from "./Solutions.module.css";
 
-export type SolutionsType = {
+export type Solutions1Type = {
   className?: string;
 };
 
-const Solutions: FunctionComponent<SolutionsType> = ({ className = "" }) => {
+const Solutions1: FunctionComponent<Solutions1Type> = ({ className = "" }) => {
   return (
     <footer className={[styles.solutions, className].join(" ")}>
       <div className={styles.solutionsContent}>
@@ -299,4 +299,4 @@ const Solutions: FunctionComponent<SolutionsType> = ({ className = "" }) => {
   );
 };
 
-export default Solutions;
+export default Solutions1;

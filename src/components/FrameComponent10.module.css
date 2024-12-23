@@ -1,0 +1,250 @@
+.futureDivider {
+  width: 102px;
+  height: 2px;
+  position: relative;
+  border-top: 1px solid var(--color-tomato-300);
+  box-sizing: border-box;
+}
+.yourFutureStarts {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.callToAction,
+.futureWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.callToAction {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.futureWrapper {
+  width: 558px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-family: var(--font-alliance-no2);
+}
+.span {
+  color: var(--color-tomato-100);
+}
+.atSevnContainer {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.opportunityDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-208xl) 0 var(--padding-285xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+.joinOurTeam {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.buttonContent {
+  width: 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.icroundArrowRightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.joinUsButton,
+.joinUsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.joinUsButton {
+  align-self: stretch;
+  flex: 1;
+  border-bottom: 1px solid var(--color-tomato-200);
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-3xs) var(--padding-7xs);
+  gap: var(--gap-xl);
+}
+.joinUsWrapper {
+  width: 526px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-125xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactUs {
+  margin: 0;
+  width: 268px;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.forQuestionsAbout {
+  white-space: pre-wrap;
+}
+.careerssevnbytescom1 {
+  text-decoration: underline;
+}
+.careerssevnbytescom {
+  color: var(--color-tomato-400);
+  white-space: pre-wrap;
+}
+.forQuestionsAboutContainer1 {
+  width: 100%;
+}
+.forQuestionsAboutContainer {
+  width: 586px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.inquiryDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-alliance-no1);
+}
+.contactDetails {
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+  flex-shrink: 0;
+}
+.contactDetails,
+.contactDividerParent,
+.joinUsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactDividerParent {
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-alliance-no2);
+}
+.joinUsContainer {
+  align-items: flex-end;
+  gap: var(--gap-158xl);
+  font-size: var(--font-size-base);
+}
+.futureContent,
+.futureContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.futureContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-28xl);
+}
+.futureContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base) var(--padding-102xl) var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no1);
+}
+@media screen and (max-width: 1200px) {
+  .opportunityDescription {
+    padding-left: var(--padding-133xl);
+    padding-right: var(--padding-94xl);
+    box-sizing: border-box;
+  }
+  .joinUsContainer {
+    gap: var(--gap-69xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .contactUs,
+  .yourFutureStarts {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .callToAction {
+    gap: var(--gap-xl);
+  }
+  .joinUsWrapper,
+  .opportunityDescription {
+    padding-left: var(--padding-57xl);
+    padding-right: var(--padding-37xl);
+    box-sizing: border-box;
+  }
+  .joinUsWrapper {
+    padding-left: var(--padding-53xl);
+    padding-right: var(--padding-53xl);
+  }
+  .contactDividerParent {
+    gap: var(--gap-xl);
+  }
+  .joinUsContainer {
+    gap: var(--gap-25xl);
+  }
+  .futureContent {
+    gap: var(--gap-4xl);
+  }
+  .futureContentWrapper {
+    padding-bottom: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourFutureStarts {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .joinUsWrapper,
+  .opportunityDescription {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contactUs {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .joinUsContainer {
+    gap: var(--gap-3xl);
+  }
+}

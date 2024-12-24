@@ -1,0 +1,137 @@
+.tyingItAll {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.tyingTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-72xl) 0 var(--padding-73xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: var(--font-alliance-no2);
+}
+.withBoldForwardThinking {
+  color: var(--color-white);
+}
+.retail {
+  color: var(--color-tomato-100);
+}
+.withBoldForwardThinkingSo {
+  margin: 0;
+}
+.withBoldForwardThinkingContainer {
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-align: center;
+}
+.partnerWithUs {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.partnerCall {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.icroundArrowRightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.partnerContent {
+  align-self: stretch;
+  flex: 1;
+  border-bottom: 1px solid var(--color-tomato-200);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-3xs) var(--padding-7xs);
+  gap: var(--gap-3xs);
+}
+.partner,
+.partnerContent,
+.tying,
+.tyingContent {
+  display: flex;
+  align-items: flex-start;
+}
+.partner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-214xl);
+  font-size: var(--font-size-base);
+}
+.tying,
+.tyingContent {
+  max-width: 100%;
+}
+.tyingContent {
+  width: 637px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.tying {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-81xl) var(--padding-17xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no1);
+}
+@media screen and (max-width: 1050px) {
+  .tyingItAll {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .partner,
+  .tyingTitle {
+    padding-left: var(--padding-27xl);
+    padding-right: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+  .partner {
+    padding-left: var(--padding-97xl);
+    padding-right: var(--padding-97xl);
+  }
+  .tyingContent {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .tyingItAll {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .partner,
+  .tyingTitle {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .tying {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}

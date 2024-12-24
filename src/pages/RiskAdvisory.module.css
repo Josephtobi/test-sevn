@@ -198,70 +198,14 @@
   position: relative;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: var(--font-alliance-no2);
-  color: var(--color-white);
   display: inline-block;
   min-width: 83px;
 }
-.janushr {
-  height: 17px;
-  width: 58px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.component51 {
-  width: 84px;
-  height: 19px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-12xs) 0;
-  box-sizing: border-box;
-}
-.janushr1 {
-  height: 17px;
-  width: 83px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.component52 {
-  width: 167px;
-  height: 19px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-12xs) 0;
-  box-sizing: border-box;
-}
-.janushr2 {
-  height: 17px;
-  width: 47px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.component53,
 .solutionsParent {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.component53 {
-  width: 67px;
-  height: 19px;
-  flex-direction: row;
-  padding: var(--padding-12xs) 0;
-  box-sizing: border-box;
-}
-.solutionsParent {
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-xl);
 }
 .company {
@@ -269,144 +213,6 @@
   position: relative;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: var(--font-alliance-no2);
-  color: var(--color-white);
-}
-.janushr3,
-.janushr4 {
-  height: 17px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.janushr3 {
-  text-decoration: none;
-  width: 60px;
-  color: inherit;
-}
-.janushr4 {
-  width: 146px;
-}
-.component521 {
-  width: 208px;
-  height: 19px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-12xs) 0;
-  box-sizing: border-box;
-}
-.janushr5,
-.janushr6,
-.janushr7 {
-  height: 17px;
-  width: 54px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.janushr6,
-.janushr7 {
-  width: 55px;
-}
-.janushr7 {
-  width: 107px;
-}
-.component55 {
-  width: 67px;
-  height: 19px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-12xs) 0 var(--padding-12xs) 0;
-  box-sizing: border-box;
-}
-.janushr10,
-.janushr8,
-.janushr9 {
-  height: 17px;
-  width: 135px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.janushr10,
-.janushr9 {
-  width: 39px;
-}
-.janushr10 {
-  width: 46px;
-}
-.component522,
-.component541 {
-  width: 156px;
-  height: 19px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-12xs) 0;
-  box-sizing: border-box;
-}
-.component541 {
-  width: 76px;
-}
-.janushr13,
-.janushr14,
-.janushr15 {
-  height: 17px;
-  width: 56px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.janushr14,
-.janushr15 {
-  width: 59px;
-}
-.janushr15 {
-  margin-bottom: -1.7px;
-  width: 69px;
-}
-.component58 {
-  width: 98px;
-  height: 13px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-}
-.janushr16 {
-  height: 17px;
-  width: 73px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.component59 {
-  width: 103px;
-  height: 19px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-12xs) 0;
-  box-sizing: border-box;
-}
-.janushr17 {
-  height: 17px;
-  width: 84px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
 }
 .industriesParent {
   display: flex;
@@ -460,7 +266,7 @@
   justify-content: flex-start;
   gap: var(--gap-11xl);
   font-size: var(--font-size-base);
-  color: var(--color-white);
+  font-family: var(--font-alliance-no1);
 }
 .footer,
 .footerContent {
@@ -481,8 +287,8 @@
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-sm);
-  color: var(--color-gray-600);
-  font-family: var(--font-alliance-no1);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no2);
 }
 .sevn1,
 .span1 {

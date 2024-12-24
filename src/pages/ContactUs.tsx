@@ -1,37 +1,25 @@
 import { FunctionComponent } from "react";
 import { Box, Typography } from "@mui/material";
+import FrameComponent1 from "../components/FrameComponent1";
 import FrameComponent12 from "../components/FrameComponent12";
 import FrameComponent13 from "../components/FrameComponent13";
 import FrameComponent14 from "../components/FrameComponent14";
 import FrameComponent16 from "../components/FrameComponent16";
 import FrameComponent11 from "../components/FrameComponent11";
 import FrameComponent15 from "../components/FrameComponent15";
+import FooterNavItem from "../components/FooterNavItem";
 import styles from "./ContactUs.module.css";
 
 const ContactUs: FunctionComponent = () => {
   return (
     <div className={styles.contactUs}>
-      <header className={styles.rectangleParent}>
-        <div className={styles.frameChild} />
-        <div className={styles.component87Wrapper}>
-          <img
-            className={styles.component87Icon}
-            loading="lazy"
-            alt=""
-            src="/component-87@2x.png"
-          />
-        </div>
-        <div className={styles.companyResourcesWrapper}>
-          <div className={styles.companyResources}>
-            <a className={styles.company}>Company</a>
-            <a className={styles.products}>Products</a>
-            <a className={styles.resources}>Resources</a>
-          </div>
-        </div>
-        <button className={styles.contactUsWrapper}>
-          <a className={styles.contactUs1}>Contact Us</a>
-        </button>
-      </header>
+      <FrameComponent1
+        frameDivHeight="unset"
+        frameDivPosition="sticky"
+        frameDivTop="0"
+        rectangleHeaderHeight="100%"
+        rectangleHeaderBottom="-1px"
+      />
       <section className={styles.contactUsInner}>
         <div className={styles.frameParent}>
           <FrameComponent12 />
@@ -48,66 +36,210 @@ const ContactUs: FunctionComponent = () => {
             <div className={styles.solutionsContainer}>
               <div className={styles.solutionsLogos}>
                 <div className={styles.solutions}>Solutions</div>
-                <div className={styles.component51}>
-                  <div className={styles.janushr}>MedicIQ</div>
-                </div>
-                <div className={styles.component52}>
-                  <div className={styles.janushr1}>JanusPayroll</div>
-                </div>
-                <div className={styles.component53}>
-                  <div className={styles.janushr2}>PAYme</div>
-                </div>
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="84px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="MedicIQ"
+                  janusHRWidth="58px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="167px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="JanusPayroll"
+                  janusHRWidth="83px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="PAYme"
+                  janusHRWidth="47px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
               </div>
               <div className={styles.solutionsLogos}>
-                <div className={styles.industries}>Company</div>
-                <div className={styles.component51}>
-                  <a className={styles.janushr3}>About us</a>
-                </div>
-                <div className={styles.component521}>
-                  <div className={styles.janushr4}>Careers - We’re hiring!</div>
-                </div>
-                <div className={styles.component53}>
-                  <div className={styles.janushr5}>Contact</div>
-                </div>
-                <div className={styles.component53}>
-                  <a className={styles.janushr6}>Cookies</a>
-                </div>
-                <div className={styles.component55}>
-                  <div className={styles.janushr7}>Terms of service</div>
-                </div>
-                <div className={styles.component55}>
-                  <div className={styles.janushr8}>Privacy and Security</div>
-                </div>
+                <div className={styles.company}>Company</div>
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="84px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="About us"
+                  janusHRWidth="60px"
+                  janusHRTextDecoration="none"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="208px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Careers - We’re hiring!"
+                  janusHRWidth="146px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Contact"
+                  janusHRWidth="54px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Cookies"
+                  janusHRWidth="55px"
+                  janusHRTextDecoration="none"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px 1px 0px"
+                  janusHR="Terms of service"
+                  janusHRWidth="107px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px 1px 0px"
+                  janusHR="Privacy and Security"
+                  janusHRWidth="135px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
               </div>
               <div className={styles.industriesParent}>
-                <div className={styles.industries}>Industries</div>
-                <div className={styles.component51}>
-                  <div className={styles.janushr9}>Retail</div>
-                </div>
-                <div className={styles.component522}>
-                  <div className={styles.janushr10}>Health</div>
-                </div>
-                <div className={styles.component53}>
-                  <div className={styles.janushr10}>Energy</div>
-                </div>
-                <div className={styles.component541}>
-                  <div className={styles.janushr12}>Finance</div>
-                </div>
-                <div className={styles.component541}>
-                  <div className={styles.janushr13}>Defense</div>
-                </div>
-                <div className={styles.component51}>
-                  <div className={styles.janushr14}>Logistics</div>
-                </div>
-                <div className={styles.component58}>
-                  <div className={styles.janushr15}>Education</div>
-                </div>
-                <div className={styles.component59}>
-                  <div className={styles.janushr16}>Agriculture</div>
-                </div>
-                <div className={styles.component59}>
-                  <div className={styles.janushr17}>Government</div>
-                </div>
+                <div className={styles.company}>Industries</div>
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="84px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Retail"
+                  janusHRWidth="39px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="156px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Health"
+                  janusHRWidth="46px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Energy"
+                  janusHRWidth="46px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="76px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Finance"
+                  janusHRWidth="55px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="76px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Defense"
+                  janusHRWidth="56px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="84px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Logistics"
+                  janusHRWidth="59px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="98px"
+                  component51Height="13px"
+                  component51AlignItems="flex-end"
+                  component51Padding="unset"
+                  janusHR="Education"
+                  janusHRWidth="69px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="-1.7px"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="103px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Agriculture"
+                  janusHRWidth="73px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="103px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Government"
+                  janusHRWidth="84px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
               </div>
               <div className={styles.footer}>
                 <img

@@ -1,0 +1,49 @@
+.phhandFistLightIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tailoredSolutions {
+  margin: 0;
+  width: 202px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.designedToSolve {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+  text-align: center;
+}
+.solutionsApproachDescription,
+.solutionsApproachIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.solutionsApproachDescription {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.solutionsApproachIcons {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 241px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-alliance-no1);
+}
+@media screen and (max-width: 450px) {
+  .tailoredSolutions {
+    font-size: var(--font-size-lgi);
+  }
+}

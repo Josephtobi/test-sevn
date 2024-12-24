@@ -1,17 +1,47 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useMemo, type CSSProperties } from "react";
 import { Box } from "@mui/material";
 import styles from "./FrameComponent1.module.css";
 
 export type FrameComponent1Type = {
   className?: string;
+
+  /** Style props */
+  frameDivHeight?: CSSProperties["height"];
+  frameDivPosition?: CSSProperties["position"];
+  frameDivTop?: CSSProperties["top"];
+  rectangleHeaderHeight?: CSSProperties["height"];
+  rectangleHeaderBottom?: CSSProperties["bottom"];
 };
 
 const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
   className = "",
+  frameDivHeight,
+  frameDivPosition,
+  frameDivTop,
+  rectangleHeaderHeight,
+  rectangleHeaderBottom,
 }) => {
+  const frameDiv3Style: CSSProperties = useMemo(() => {
+    return {
+      height: frameDivHeight,
+      position: frameDivPosition,
+      top: frameDivTop,
+    };
+  }, [frameDivHeight, frameDivPosition, frameDivTop]);
+
+  const rectangleHeaderStyle: CSSProperties = useMemo(() => {
+    return {
+      height: rectangleHeaderHeight,
+      bottom: rectangleHeaderBottom,
+    };
+  }, [rectangleHeaderHeight, rectangleHeaderBottom]);
+
   return (
-    <div className={[styles.rectangleParent, className].join(" ")}>
-      <header className={styles.frameChild} />
+    <div
+      className={[styles.rectangleParent, className].join(" ")}
+      style={frameDiv3Style}
+    >
+      <header className={styles.frameChild} style={rectangleHeaderStyle} />
       <div className={styles.component87Wrapper}>
         <img
           className={styles.component87Icon}

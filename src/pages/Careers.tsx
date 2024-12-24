@@ -5,6 +5,7 @@ import FrameComponent9 from "../components/FrameComponent9";
 import StepItems from "../components/StepItems";
 import FrameComponent10 from "../components/FrameComponent10";
 import Content from "../components/Content";
+import FooterNavItem from "../components/FooterNavItem";
 import styles from "./Careers.module.css";
 
 const Careers: FunctionComponent = () => {
@@ -73,66 +74,210 @@ const Careers: FunctionComponent = () => {
             <div className={styles.footerContent}>
               <div className={styles.footerLinks}>
                 <div className={styles.solutions}>Solutions</div>
-                <div className={styles.component51}>
-                  <div className={styles.janushr}>MedicIQ</div>
-                </div>
-                <div className={styles.component52}>
-                  <div className={styles.janushr1}>JanusPayroll</div>
-                </div>
-                <div className={styles.component53}>
-                  <div className={styles.janushr2}>PAYme</div>
-                </div>
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="84px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="MedicIQ"
+                  janusHRWidth="58px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="167px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="JanusPayroll"
+                  janusHRWidth="83px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="PAYme"
+                  janusHRWidth="47px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
               </div>
               <div className={styles.footerLinks}>
                 <div className={styles.company}>Company</div>
-                <div className={styles.component51}>
-                  <a className={styles.janushr3}>About us</a>
-                </div>
-                <div className={styles.component521}>
-                  <div className={styles.janushr4}>Careers - We’re hiring!</div>
-                </div>
-                <div className={styles.component53}>
-                  <a className={styles.janushr5}>Contact</a>
-                </div>
-                <div className={styles.component53}>
-                  <a className={styles.janushr6}>Cookies</a>
-                </div>
-                <div className={styles.component55}>
-                  <div className={styles.janushr7}>Terms of service</div>
-                </div>
-                <div className={styles.component55}>
-                  <div className={styles.janushr8}>Privacy and Security</div>
-                </div>
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="84px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="About us"
+                  janusHRWidth="60px"
+                  janusHRTextDecoration="none"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="208px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Careers - We’re hiring!"
+                  janusHRWidth="146px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Contact"
+                  janusHRWidth="54px"
+                  janusHRTextDecoration="none"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Cookies"
+                  janusHRWidth="55px"
+                  janusHRTextDecoration="none"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px 1px 0px"
+                  janusHR="Terms of service"
+                  janusHRWidth="107px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px 1px 0px"
+                  janusHR="Privacy and Security"
+                  janusHRWidth="135px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
               </div>
               <div className={styles.industriesLinks}>
                 <div className={styles.company}>Industries</div>
-                <div className={styles.component51}>
-                  <div className={styles.janushr9}>Retail</div>
-                </div>
-                <div className={styles.component522}>
-                  <div className={styles.janushr10}>Health</div>
-                </div>
-                <div className={styles.component53}>
-                  <div className={styles.janushr10}>Energy</div>
-                </div>
-                <div className={styles.component541}>
-                  <div className={styles.janushr12}>Finance</div>
-                </div>
-                <div className={styles.component541}>
-                  <div className={styles.janushr13}>Defense</div>
-                </div>
-                <div className={styles.component51}>
-                  <div className={styles.janushr14}>Logistics</div>
-                </div>
-                <div className={styles.component58}>
-                  <div className={styles.janushr15}>Education</div>
-                </div>
-                <div className={styles.component59}>
-                  <div className={styles.janushr16}>Agriculture</div>
-                </div>
-                <div className={styles.component59}>
-                  <div className={styles.janushr17}>Government</div>
-                </div>
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="84px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Retail"
+                  janusHRWidth="39px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="156px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Health"
+                  janusHRWidth="46px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="67px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Energy"
+                  janusHRWidth="46px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="76px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Finance"
+                  janusHRWidth="55px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="76px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Defense"
+                  janusHRWidth="56px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="84px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Logistics"
+                  janusHRWidth="59px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="98px"
+                  component51Height="13px"
+                  component51AlignItems="flex-end"
+                  component51Padding="unset"
+                  janusHR="Education"
+                  janusHRWidth="69px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="-1.7px"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="103px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Agriculture"
+                  janusHRWidth="73px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
+                <FooterNavItem
+                  property1="JanusHR"
+                  component51Width="103px"
+                  component51Height="19px"
+                  component51AlignItems="flex-start"
+                  component51Padding="1px 0px"
+                  janusHR="Government"
+                  janusHRWidth="84px"
+                  janusHRTextDecoration="unset"
+                  janusHRMarginBottom="unset"
+                />
               </div>
               <div className={styles.copyright}>
                 <img

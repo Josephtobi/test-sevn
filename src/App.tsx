@@ -5,9 +5,10 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Careers from "./pages/Careers";
+import Industries from "./pages/Industries";
 import Solutions from "./pages/Solutions";
 import AboutUs from "./pages/AboutUs";
+import Careers from "./pages/Careers";
 import ContactUs from "./pages/ContactUs";
 import RiskAdvisory from "./pages/RiskAdvisory";
 import Landing from "./pages/Landing";
@@ -37,6 +38,10 @@ function App() {
         metaDescription = "";
         break;
       case "/about-us":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/careers":
         title = "";
         metaDescription = "";
         break;
@@ -70,9 +75,10 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Careers />} />
+      <Route path="/" element={<Industries />} />
       <Route path="/solutions" element={<Solutions />} />
       <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/careers" element={<Careers />} />
       <Route path="/contact-us" element={<ContactUs />} />
       <Route path="/risk-advisory" element={<RiskAdvisory />} />
       <Route path="/landing" element={<Landing />} />
